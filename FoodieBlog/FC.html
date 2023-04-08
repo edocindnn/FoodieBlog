@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sum Yum</title>
+        <!-- font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+        <!-- aos library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css link-->
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+
+        <!-- header section -->
+        <header>
+                <div class="container">
+                <a href="#home" class="logo">Foodie<span class="color_txt">Blog</span></a>
+                <nav class="nav">
+                    <ul id="menu_item">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fas fa-bars" id="bars"></i>
+            </div>
+        </header>
+        <div class="recipe" id = 'recipe'>
+            <div class="image">
+                <h1  data-aos="fade-left"><span class="color_txt">Crispy Fried </span> Chicken Drumsticks Recipe</h1><img src="chicken.jpg" data-aos="zoom-in"></div>
+            <div class="timeline" data-aos="flip-down">
+                <h2 class="color_txt">Timeline</h2>
+                <p>
+                    <strong>Prep:</strong>30 mins <br>
+                    <strong>Cook:</strong>80 mins <br>
+                    <strong>Marinate Time:</strong>60 mins <br>
+                    <strong>Total:</strong>2 hrs 40 mins<br>
+                    <strong>Serving:</strong>6 to 8 servings<br>
+                    <strong>Yield:</strong>16 drumsticks <br>
+                </p>
+            </div>
+            <div class="ing" data-aos="flip-up">
+                <h2 class="color_txt">Ingerdients</h2>
+                <p>
+                    16 chicken drumsticks, or a combination of drumsticks and thighs <br>
+                    1 1/2 cups buttermilk <br>
+                    1 1/2 tablespoons Tabasco sauce <br>
+                    2 teaspoons kosher salt <br>
+                    2 tablespoons freshly ground black pepper, divided <br>
+                    3 cups vegetable oil, for frying, more as needed <br>
+                    2 cups all-purpose flour <br>
+                    1 teaspoon cayenne pepper <br>
+                </p>
+            </div>
+            <div class="direct" data-aos="flip-down">
+                <h2 class="color_txt">Directions</h2>
+                <p>Steps to Make It <br>
+                    1. Gather the ingredients. <br>
+                    2. Pat the chicken with paper towels to dry. Do not rinse your chicken, as the splatter of water and raw chicken juices can only increase the chance of cross-contamination in your kitchen. <br>
+                    3. In a large bowl, combine the buttermilk, Tabasco sauce, salt, and 1 tablespoon of the black pepper. Add the chicken legs to the mixture and toss to coat. Cover and refrigerate at least 1 hour or up to overnight. <br>
+                    4. Remove the chicken from the buttermilk, letting any excess drip off. If you have a cooling rack, put it over a rimmed baking sheet. Put the chicken pieces on the rack.<br>
+                    5. Position a rack in the center of the oven and heat to 200 F. In a large, heavy-duty saucepan, deep skillet, or sauté pan, heat the oil to about 350 F.<br>
+                    6. Meanwhile, in a large clean bowl, combine the flour, the remaining 1 tablespoon black pepper, and the cayenne. Coat the chicken legs in the seasoned flour, shake off any excess, and place on the prepared rack.<br>
+                    7. Working in batches, fry the chicken until golden brown and cooked through, about 10 minutes on each side. Use an instant-read food thermometer inserted in the thickest part of the largest drumstick, away from bone or fat to test for doneness. The minimum safe temperature for poultry is 165 F.<br>
+                    8. Remove the chicken pieces as they become done to paper towels to drain. <br>
+                    9. Place the drained chicken on a baking sheet, cover loosely with foil, and move to the oven to keep warm while frying subsequent batches. Serve warm or at room-temperature.<br>
+                </p>
+            </div>
+        <div class="footer_container" id="contact">
+            <div class="footer">
+                <div class="footer_first" data-aos="zoom-in-up">
+                    <h1>Share</h1>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="footer_second" data-aos="zoom-in-up">
+                    <p>Wake up your taste buds.</p>
+                        <p>Fulfill your comfort food cravings.</p>
+                        <p>Feel the joy of mouthwatering food.</p>
+                </div>
+                <div class="footer_third" data-aos="zoom-in-up">
+                    <h2>Admins Support</h2>
+                    <p>nandhini.20cse@sonatech.ac.in</p>
+                    <p>pavitra.20cse@sonatech.ac.in</p>
+                </div>
+            </div>
+            <p class="footer_copyright"><strong>All rights reserved @NPFoodieBlog 2022</strong></p>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!--INITIALIZE AOS: -->
+        <script>
+         AOS.init({
+            duration: 1000,
+            delay: 400
+         });
+        </script>
+        <!-- jS link-->
+        <script src="script.js"></script>
+        </body>
+</html>

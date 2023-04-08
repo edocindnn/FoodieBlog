@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sum Yum</title>
+        <!-- font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+        <!-- aos library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- custom css link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css link-->
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+
+        <!-- header section -->
+        <header>
+                <div class="container">
+                <a href="#home" class="logo">Foodie<span class="color_txt">Blog</span></a>
+                <nav class="nav">
+                    <ul id="menu_item">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fas fa-bars" id="bars"></i>
+            </div>
+        </header>
+        <div class="recipe" id = 'recipe'>
+            <div class="image">
+                <h1 data-aos="fade-left"><span class="color_txt">Chana Masala </span>(Savory Indian Chick Peas)</h1><img src="channa.jpg" data-aos="zoom-in"></div>
+            <div class="timeline">
+                <h2 class="color_txt" data-aos="flip-down">Timeline</h2>
+                <p>
+                    <strong> Prep:</strong>15 mins <br>
+                    <strong> Cook: </strong> 15 mins <br>
+                    <strong> Total: </strong> 30 mins <br>
+                    <strong> Servings: </strong> 2 <br>
+                    <strong> Yield: </strong> 2 cups <br>
+                </p>
+            </div>
+            <div class="ing" data-aos="flip-up">
+                <h2 class="color_txt">Ingerdients</h2>
+                <p>
+                <strong>Incngredient Checklist</strong> <br>
+                1 onion, chopped <br>
+                1 tomato, chopped <br>
+                1 (1 inch) piece fresh ginger, peeled and chopped <br>
+                4 cloves garlic, chopped, or more to taste<br>
+                1 green chile pepper, seeded and chopped (Optional)<br>
+                3 tablespoons olive oil<br>
+                2 fresh bay leaves<br>
+                1 teaspoon chili powder<br>
+                1 teaspoon coriander powder<br>
+                1 teaspoon garam masala<br>
+                ½ teaspoon turmeric powder<br>
+                1 pinch salt to taste<br>
+                water as needed<br>
+                1 (15 ounce) can chickpeas<br>
+                1 teaspoon fresh cilantro leaves, for garnish, or more to taste<br>
+                </p>
+            </div>
+            <div class="direct" data-aos="flip-down">
+                <h2 class="color_txt">Directions</h2>
+                <p>
+                    <strong>Step 1 </strong> <br>
+                    Grind onion, tomato, ginger, garlic, and chile pepper together in a food processor into a paste.<br>
+
+                    <strong>Step 2</strong><br>
+                    Heat olive oil in a large skillet over medium heat. Fry bay leaves in hot oil until fragrant, about 30 seconds. Pour the paste into the skillet and cook until the oil begins to separate from the mixture and is golden brown in color, 2 to 3 minutes. Season the mixture with chili powder, coriander, gram masala, turmeric, and salt; cook and stir until very hot, 2 to 3 minutes.<br>
+
+                    <strong>Step 3</strong><br>
+                    Stir enough water into the mixture to get a thick gravy; bring to a boil and stir chickpeas into the gravy. Reduce heat to medium and cook until the chickpeas are heated through, 5 to 7 minutes. Garnish with cilantro.<br>
+                </p>
+            </div>
+        </div>
+        <div class="footer_container" id="contact">
+            <div class="footer">
+                <div class="footer_first" data-aos="zoom-in-up">
+                    <h1>Share</h1>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="footer_second" data-aos="zoom-in-up">
+                    <p>Wake up your taste buds.</p>
+                        <p>Fulfill your comfort food cravings.</p>
+                        <p>Feel the joy of mouthwatering food.</p>
+                </div>
+                <div class="footer_third" data-aos="zoom-in-up">
+                    <h2>Admins Support</h2>
+                    <p>nandhini.20cse@sonatech.ac.in</p>
+                    <p>pavitra.20cse@sonatech.ac.in</p>
+                </div>
+            </div>
+            <p class="footer_copyright"><strong>All rights reserved @NPFoodieBlog 2022</strong></p>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!--INITIALIZE AOS: -->
+        <script>
+         AOS.init({
+            duration: 1000,
+            delay: 400
+         });
+        </script>
+        <!-- jS link-->
+        <script src="script.js"></script>
+        </body>
+</html>
